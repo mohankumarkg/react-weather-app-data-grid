@@ -48,7 +48,8 @@ class App extends React.Component{
         });
         
         this.setState({
-          rows: dataArr   
+          rows: dataArr,   
+          error:null
         });
       }
      }
